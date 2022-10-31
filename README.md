@@ -22,7 +22,7 @@ The project has been developed with java. It is a BDD project written by using C
 
 The project is a combination of the Cucumber and POM models. It has locators and page actions in page classes and also there are step-definition classes to define the behavior of the application so as that create the test scenarios. So you can define the behavior (Steps) based on the page classes.
 
-Also, it provides execution of the project on all browsers. You can define the default browser on the[config.properties](https://github.com/serhatozdursun/com.fedex.test/blob/master/src/test/resources/config.properties) file. If you want to run it with a different browser you can define the browser like below. 
+Also, it provides execution of the project on all browsers. You can define the default browser on the [config.properties](https://github.com/serhatozdursun/com.fedex.test/blob/master/src/test/resources/config.properties) file. If you want to run it with a different browser you can define the browser like below. 
 
 ``mvn test -Dbrowser=Safari``
 
