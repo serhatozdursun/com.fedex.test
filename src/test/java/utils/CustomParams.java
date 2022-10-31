@@ -3,13 +3,10 @@ package utils;
 import enums.Countries;
 import enums.Credentials;
 import enums.TrackingNumbers;
-import io.cucumber.java.DataTableType;
 import io.cucumber.java.ParameterType;
 
-import java.util.List;
-
 public class CustomParams {
-    @ParameterType("INVALID_TRACKING_ID|VALID_TRACKING_ID|NO_EXISTS_TRACKING_ID|EMPTY_TRACKING_ID")
+    @ParameterType("INVALID_TRACKING_ID|VALID_TRACKING_ID|NO_EXISTS_TRACKING_ID|EMPTY_TRACKING_ID|INVALID_FORMAT_TRACKING_ID")
     public TrackingNumbers trackingNumbers(String trackingNumbers) {
         return TrackingNumbers.valueOf(trackingNumbers);
     }
