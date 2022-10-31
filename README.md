@@ -6,7 +6,7 @@
         + [Project architecture](#architecture)
         + [Report](#report)
         + [Test scenarios](#scenarios)
-        + [Additional info](info)
+        + [Additional info](#info)
 
 <a name="overview"></a>
 ## Overview
@@ -55,5 +55,6 @@ I've left these scenarios as they are, so you can evaluate if they are a real pr
 - [tracking.feature](https://github.com/serhatozdursun/com.fedex.test/blob/master/src/test/resources/features/tracking.feature): is about tracking the shipment. it has 3 scenarios
 
 <a name="info"></a>
+
 ## Additional info
 Calculates static wait time and shows information about it at the end of execution. So we will know about the static cooldown and once it gets that big we can take action to avoid unnecessary waiting times.
