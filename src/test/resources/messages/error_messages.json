@@ -1,0 +1,6 @@
+{
+  "unable_to_retrieve_your_tracking": "Unfortunately, we are unable to retrieve your tracking results at this time. Please try again later.",
+  "no_track_number_alert": "Please enter at least one tracking number.",
+  "invalidCredentials": "Login incorrect. Either the user ID or password combination is incorrect or the account has been locked. Please try again or reset your password.",
+  "user_id_and_password_is_required": "Both user ID and password are required to log in."
+}
